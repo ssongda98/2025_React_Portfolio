@@ -16,7 +16,7 @@ const ChatbotWidget = () => {
       rel="noopener noreferrer"
       aria-label="Chat with AI about Sunny"
     >
-      <button className="w-14 h-14 text-lg rounded-full bg-indigo-600 text-white flex items-center justify-center shadow-lg hover:bg-indigo-700 transition cursor-pointer">
+      <button className="w-14 h-14 text-2xl rounded-full bg-indigo-600 text-white flex items-center justify-center shadow-lg hover:bg-indigo-700 transition cursor-pointer">
         🤖
       </button>
     </a>
