@@ -60,7 +60,7 @@ const Services = () => {
                 <>
                   Years in
                   <br />
-                  design & web
+                  Web Design
                 </>
               }
             ></Counter>
@@ -71,7 +71,7 @@ const Services = () => {
                 <>
                   Years in
                   <br />
-                  evelopment
+                  Web Development
                 </>
               }
             ></Counter>
@@ -82,7 +82,7 @@ const Services = () => {
                 <>
                   Projects
                   <br />
-                  shipped
+                  Successfully Delivered
                 </>
               }
             ></Counter>
