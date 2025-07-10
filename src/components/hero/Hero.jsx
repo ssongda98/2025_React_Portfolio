@@ -81,11 +81,11 @@ const Hero = () => {
           animate="animate"
           className="absolute md:relative top-[40%] md:top-0 flex flex-col gap-3 p-4 bg-[#2f204e] rounded-l-lg md:rounded-b-lg"
         >
-          <motion.a variants={followVariants} href="">
-            <img src="/instagram.png" alt="" width={20} height={20} />
+          <motion.a variants={followVariants} href="https://www.linkedin.com/in/sunnysong-dev" target='_blank'>
+            <img src="/linkedin.png" alt="" width={20} height={20} />
           </motion.a>
-          <motion.a variants={followVariants} href="">
-            <img src="/facebook.png" alt="" width={20} height={20} />
+          <motion.a variants={followVariants} href="https://github.com/ssongda98/2025_React_Portfolio" target='_blank'>
+            <img src="/github.png" alt="" width={20} height={20} />
           </motion.a>
           <motion.div variants={followVariants} className="w-[20px] h-full">
             <div className="text-xs rotate-90 bg-[#dd4c62] w-max h-full origin-top-left translate-x-[20px] px-2 flex justify-center items-center rounded-br-lg">
