@@ -1,9 +1,7 @@
 ## 🔧 Deployment Workflow
 
-After modifying code on the main branch, run :
-```bash
-npm run build.
-```
+After updating the code and rebuilding the project on the `main` branch,
+
 Then switch to this branch and run :
 ```bash
 npm run hostinger,
