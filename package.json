@@ -1,5 +1,5 @@
 {
   "scripts": {
-    "deploy2copy": "git checkout main -- dist && mkdir temp && mv dist/* temp/ && rm -rf dist && mv temp/* . && rmdir temp"
+    "hostinger": "git checkout main -- dist && mkdir temp && mv dist/* temp/ && rm -rf dist && mv temp/* . && rmdir temp"
   }
 }
