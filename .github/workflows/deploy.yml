@@ -1,0 +1,47 @@
+name: Build and Deploy dist to deploy2 Branch
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build project
+        run: npm run build
+
+      - name: Deploy dist folder to deploy2 branch
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+
+          # Clone the repo and switch to orphan deploy2 branch
+          git clone --depth=1 --branch=deploy2 https://github.com/${{ github.repository }} temp-deploy || \
+          (git clone --depth=1 https://github.com/${{ github.repository }} temp-deploy && cd temp-deploy && git checkout --orphan deploy2 && git rm -rf .)
+
+          cd temp-deploy
+
+          # Clean existing files
+          rm -rf *
+
+          # Copy dist files from original repo
+          cp -r ../dist/* .
+
+          # Commit and push
+          git add .
+          git commit -m "Deploy: update dist files from main branch"
+          git push origin deploy2 --force
