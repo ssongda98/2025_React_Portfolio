@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "postbuild": "bash scripts/deploy2copy.sh",
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -38,3 +39,4 @@
     "vite": "^5.4.10"
   }
 }
+
