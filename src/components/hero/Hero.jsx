@@ -152,11 +152,11 @@ const Hero = () => {
             <Shape />
           </Suspense>
         </Canvas>
-        <div className="absolute left-0 right-0 bottom-0 h-full md:h-[80%] w-max m-auto">
+        <div className="absolute left-0 right-0 bottom-0 h-full w-full md:h-[80%] md:w-max m-auto">
           <img
             src="/sunny_2.png"
             alt=""
-            className="w-full h-full object-cover"
+            className="w-full h-full object-contain md:object-cover"
           />
         </div>
       </div>
