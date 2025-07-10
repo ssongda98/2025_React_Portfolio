@@ -84,7 +84,7 @@ const ListItem = ({ item, className = "" }) => {
 
   return (
     <div
-      className={`pItem w-screen h-screen  overflow-hidden flex flex-col lg:flex-row justify-center items-center gap-[50px] 2xl:gap-[100px] ${className}`}
+      className={`pItem w-screen h-screen  overflow-hidden flex flex-col lg:flex-row justify-center items-center gap-[30px] md:gap-[50px] 2xl:gap-[100px] ${className}`}
       key={item.id}
       ref={ref}
     >
@@ -106,7 +106,7 @@ const ListItem = ({ item, className = "" }) => {
       >
         <motion.h1
           variants={textVariants}
-          className="text-4xl xl:text-5xl font-semibold"
+          className="hidden md:block lg:text-4xl font-semibold"
         >
           {item.title}
         </motion.h1>
