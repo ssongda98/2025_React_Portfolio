@@ -1,3 +1,9 @@
+## This branch is..
+This branch is **used for Git CI/CD integration to deploy the website to Hostinger**.  
+The build output from the `main` branch (the contents of the `dist` folder) is placed at the root of this branch,  
+so that Hostinger can automatically serve the static files.
+
+
 ## 🔧 Deployment Workflow
 
 After updating the code and rebuilding the project on the `main` branch,
