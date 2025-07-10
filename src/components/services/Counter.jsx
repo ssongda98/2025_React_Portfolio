@@ -23,7 +23,7 @@ const Counter = ({ from, to, text }) => {
   return (
     <div className="counter md:text-center" ref={ref}>
       <h1 className="text-[48px] font-semibold text-[#dd4c62]">{count}+</h1>
-      <p className="text-sm">{text}</p>
+      <p className="text-sm max-w-[100px] md:max-w-full">{text}</p>
     </div>
   );
 };

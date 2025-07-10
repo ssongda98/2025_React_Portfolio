@@ -29,7 +29,7 @@ const Services = () => {
   return (
     <div
       ref={ref}
-      className="services h-full flex flex-col items-center justify-around"
+      className="services h-full flex flex-col items-center justify-evenly md:justify-around"
     >
       <div className="flex flex-col lg:flex-row items-center gap-[100px]">
         <motion.div
