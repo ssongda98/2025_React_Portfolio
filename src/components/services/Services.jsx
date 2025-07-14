@@ -58,9 +58,9 @@ const Services = () => {
               to={10}
               text={
                 <>
-                  Years in
+                  Years of
                   <br />
-                  Web Design
+                  Design Excellence
                 </>
               }
             ></Counter>
@@ -69,7 +69,7 @@ const Services = () => {
               to={3}
               text={
                 <>
-                  Years in
+                  Years of
                   <br />
                   Web Development
                 </>
@@ -80,9 +80,9 @@ const Services = () => {
               to={50}
               text={
                 <>
-                  Projects
+                  Trusted Clients
                   <br />
-                  Successfully Delivered
+                  Across Industries
                 </>
               }
             ></Counter>

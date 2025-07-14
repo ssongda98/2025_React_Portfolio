@@ -5,7 +5,6 @@ const icons = [
   "/skills/Next.png",
   "/skills/Typescript.png",
   "/skills/Sass.png",
-  "/skills/Nodejs.png",
   "/skills/Tailwindcss.png",
   "/skills/Shopify.png",
   "/skills/Liquid.png",
