@@ -5,41 +5,41 @@ import "./portfolio.css";
 const items = [
   {
     id: 1,
-    img: "/portfolio/p-chatbot.jpeg",
-    title: "Full-Stack AI Chatbot (Next.js + OpenAI API)",
-    desc: "This project was created to deepen my understanding of full-stack development using Next.js and modern web technologies. It explores key concepts such as API integration, authentication, and database interaction—highlighted by the use of the OpenAI API to power the chatbot’s conversational intelligence. The project focuses on clean architecture, real-time responsiveness, and a user-friendly interface. 🔐 Demo Login: hello@sunnysong.me / pw: hireSunny2025!",
-    link: "https://ai-chatbot-nqy97xgif-sunny-songs-projects.vercel.app/",
-  },
-  {
-    id: 2,
-    img: "/portfolio/p-iphone.jpeg",
-    title: "Interactive 3D Product Page – iPhone 15 Pro Concept",
-    desc: "A visually rich, interactive web experience inspired by the Apple iPhone 15 Pro website. This project combines GSAP animations and Three.js-powered 3D effects to deliver dynamic transitions, smooth scroll interactions, and real-time 3D rendering. Through this build, I gained hands-on experience with custom animation timelines, 3D scene setup, and performance optimization techniques for web-based 3D content.",
-    link: "https://3d-iphone.sunnysong.me/",
-  },  
-  {
-    id: 3,
-    img: "/portfolio/p-brainwave.jpeg",
-    title: "Brainwave – Modern React Landing Page",
-    desc:
-      "A sleek, responsive landing page built with React.js and Tailwind CSS, showcasing advanced UI techniques such as parallax effects, bento-style layouts, and mobile-first design. This project allowed me to deepen my understanding of component-based architecture in React, utility-first styling with Tailwind CSS, smooth scroll and layout interactions, and responsive design best practices.",
-    link: "https://brainwave.sunnysong.me/",
-  },   
-  
-  {
-    id: 4,
     img: "/portfolio/p-clarke.jpeg",
     title: "Clarke Group – Property Investment Listing Platform",
     desc: "Clarke Group is a New Zealand-based property investment company. This was a client project where I built a custom WordPress website using PHP, featuring a tailored property listing system, detailed property pages, and an interactive “Sold/Sale” layout built with JavaScript for visual browsing. The site also includes a Mapbox integration for a seamless, map-based property overview.",
     link: "https://clarkegroup.co.nz/",
   },
   {
-    id: 5,
+    id: 2,
     img: "/portfolio/p-selecthotels.jpeg",
     title: "Select Hotels - Global Luxury Hotel Search",
     desc: "I led the end-to-end creation of a global luxury hotel discovery platform for a client — from concept planning and UX/UI design to custom WordPress theme development using PHP. The platform features an elegant, high-end user interface optimized for responsive browsing, and includes a partner submission system that automatically publishes listings upon admin approval. This streamlined approach enhanced operational efficiency and delighted the client with both design quality and usability.",
     link: "https://select-hotels.sunnysong.me/",
   },
+  {
+    id: 3,
+    img: "/portfolio/p-iphone.jpeg",
+    title: "Interactive 3D Product Page – iPhone 15 Pro Concept",
+    desc: "A visually rich, interactive web experience inspired by the Apple iPhone 15 Pro website. This project combines GSAP animations and Three.js-powered 3D effects to deliver dynamic transitions, smooth scroll interactions, and real-time 3D rendering. Through this build, I gained hands-on experience with custom animation timelines, 3D scene setup, and performance optimization techniques for web-based 3D content.",
+    link: "https://3d-iphone.sunnysong.me/",
+  },  
+  {
+    id: 4,
+    img: "/portfolio/p-brainwave.jpeg",
+    title: "Brainwave – Modern React Landing Page",
+    desc:
+      "A sleek, responsive landing page built with React.js and Tailwind CSS, showcasing advanced UI techniques such as parallax effects, bento-style layouts, and mobile-first design. This project allowed me to deepen my understanding of component-based architecture in React, utility-first styling with Tailwind CSS, smooth scroll and layout interactions, and responsive design best practices.",
+    link: "https://brainwave.sunnysong.me/",
+  }, 
+  
+  {
+    id: 5,
+    img: "/portfolio/p-chatbot.jpeg",
+    title: "Full-Stack AI Chatbot (Next.js + OpenAI API)",
+    desc: "This project was created to deepen my understanding of full-stack development using Next.js and modern web technologies. It explores key concepts such as API integration, authentication, and database interaction—highlighted by the use of the OpenAI API to power the chatbot’s conversational intelligence. The project focuses on clean architecture, real-time responsiveness, and a user-friendly interface. 🔐 Demo Login: hello@sunnysong.me / pw: hireSunny2025!",
+    link: "https://ai-chatbot-nqy97xgif-sunny-songs-projects.vercel.app/",
+  },      
 ];
 
 const imgVariants = {

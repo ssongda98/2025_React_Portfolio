@@ -2,7 +2,6 @@
 
 import { lazy, Suspense } from "react";
 import LazyLoad from "react-lazyload";
-import ChatbotWidget from "./components/ChatbotWidget";
 import Contact from "./components/contact/Contact";
 import Hero from "./components/hero/Hero";
 
@@ -35,7 +34,7 @@ const App = () => {
         <Contact />
       </section>
 
-      <ChatbotWidget />
+      {/* <ChatbotWidget /> */}
     </div>
   );
 };

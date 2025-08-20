@@ -23,7 +23,7 @@ const ChatbotWidget = () => {
 
     {/* Tooltip */}
     <div className="absolute right-16 bottom-2 opacity-0 group-hover:opacity-100 transition bg-white text-gray-800 text-sm px-3 py-1 rounded shadow-md whitespace-nowrap">
-      Meet Sunny's AI assistant 🤖
+      Meet Sunny AI assistant 🤖
     </div>
   </div>
 </>
