@@ -167,10 +167,12 @@ const Hero = () => {
                     /sunny-mobile.webp 412w,
                     /sunny-desktop.webp 732w,
                     /sunny-retina.webp 1464w
-                                "
+                   "
             sizes="(max-width: 768px) 412px, 732px"
             alt="Sunny"
             className="w-full h-full object-contain md:object-cover"
+            fetchPriority="high"
+            loading="eager"
           />
         </div>
       </div>

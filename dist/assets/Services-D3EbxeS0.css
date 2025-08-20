@@ -1,1 +1,0 @@
-.sImg{width:80px;height:80px;margin-right:50px}.marquee{display:flex;white-space:nowrap;animation:scroll 80s linear infinite}@keyframes scroll{0%{transform:translate(0)}to{transform:translate(-50%)}}@media (max-width:640px){.sImg{width:65px;height:65px;margin-right:30px}}
