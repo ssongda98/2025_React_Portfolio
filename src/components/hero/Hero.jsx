@@ -81,10 +81,18 @@ const Hero = () => {
           animate="animate"
           className="absolute md:relative top-[40%] md:top-0 flex flex-col gap-3 p-4 bg-[#2f204e] rounded-l-lg md:rounded-b-lg"
         >
-          <motion.a variants={followVariants} href="https://www.linkedin.com/in/sunnysong-dev" target='_blank'>
+          <motion.a
+            variants={followVariants}
+            href="https://www.linkedin.com/in/sunnysong-dev"
+            target="_blank"
+          >
             <img src="/linkedin.png" alt="" width={20} height={20} />
           </motion.a>
-          <motion.a variants={followVariants} href="https://github.com/ssongda98/2025_React_Portfolio" target='_blank'>
+          <motion.a
+            variants={followVariants}
+            href="https://github.com/ssongda98/2025_React_Portfolio"
+            target="_blank"
+          >
             <img src="/github.png" alt="" width={20} height={20} />
           </motion.a>
           <motion.div variants={followVariants} className="w-[20px] h-full">
@@ -154,8 +162,14 @@ const Hero = () => {
         </Canvas>
         <div className="absolute left-0 right-0 bottom-0 h-full w-full md:h-[80%] md:w-max m-auto">
           <img
-            src="/sunny_2.png"
-            alt=""
+            src="/sunny-desktop.webp"
+            srcSet="
+                    /sunny-mobile.webp 412w,
+                    /sunny-desktop.webp 732w,
+                    /sunny-retina.webp 1464w
+                                "
+            sizes="(max-width: 768px) 412px, 732px"
+            alt="Sunny"
             className="w-full h-full object-contain md:object-cover"
           />
         </div>
